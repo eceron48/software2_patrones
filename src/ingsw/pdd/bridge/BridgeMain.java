@@ -28,5 +28,5 @@ final String message = "<Persona><Nombre>Pedro Perez</Nombre></Persona>";  Strin
 		e.printStackTrace(); }
 
 	}
-
+system.out;
 }

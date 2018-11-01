@@ -7,7 +7,7 @@ import ingsw.pdd.chainofresponsability.domain.Contributor;
 
 public abstract class AbstractOrder {
 
-	private Calendar createDate;
+	 private Calendar createDate;
 	 private Contributor contributor;
 	 private List<OrderItem> orderItems;
 	

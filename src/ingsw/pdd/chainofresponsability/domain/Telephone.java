@@ -5,6 +5,8 @@ public class Telephone {
 	private String lada;
 	 private String number;
 	 private String ext;
+	 
+	 
 	public String getLada() {
 		return lada;
 	}

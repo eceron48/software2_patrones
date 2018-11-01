@@ -8,4 +8,43 @@ public abstract class Contributor {
 	 private Address address;
 	 private Telephone telephone;
 	 private CreditData creditData;
+	 
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getRfc() {
+		return rfc;
+	}
+	public void setRfc(String rfc) {
+		this.rfc = rfc;
+	}
+	public Status getStatus() {
+		return status;
+	}
+	public void setStatus(Status status) {
+		this.status = status;
+	}
+	public Address getAddress() {
+		return address;
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+	public Telephone getTelephone() {
+		return telephone;
+	}
+	public void setTelephone(Telephone telephone) {
+		this.telephone = telephone;
+	}
+	public CreditData getCreditData() {
+		return creditData;
+	}
+	public void setCreditData(CreditData creditData) {
+		this.creditData = creditData;
+	}
+	 
+	 
 }

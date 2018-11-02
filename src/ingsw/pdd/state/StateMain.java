@@ -1,5 +1,6 @@
 package ingsw.pdd.state;
 
+import java.awt.Color;
 import java.awt.FlowLayout;
 import java.awt.GridBagLayout;
 import java.awt.GridLayout;
@@ -15,12 +16,11 @@ public class StateMain {
 		
 		JFrame frame = new JFrame();
 		frame.setTitle("State pattern");
-		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setLocationRelativeTo(null);
-		frame.setSize(500 ,600);
-		frame.setExtendedState(JFrame.NORMAL);
+		frame.setDefaultCloseOperation(frame.EXIT_ON_CLOSE);
+		frame.setSize(800,600);
 		frame.add(new ServerPanel());
-		frame.pack();
+		//frame.pack();
 		frame.setVisible(true);
 
 	}

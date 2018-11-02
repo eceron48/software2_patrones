@@ -19,6 +19,8 @@ import java.awt.GridLayout;
 import java.awt.Component;
 import javax.swing.JScrollPane;
 import javax.swing.ScrollPaneConstants;
+import java.awt.Rectangle;
+import java.awt.Dimension;
 
 public class ServerPanel extends javax.swing.JPanel implements ActionListener {
 
@@ -31,6 +33,9 @@ public class ServerPanel extends javax.swing.JPanel implements ActionListener {
 
 	
 	public ServerPanel() {
+		setSize(new Dimension(360, 480));
+		setMinimumSize(new Dimension(300, 400));
+		setBounds(new Rectangle(600, 800, 400, 320));
 		setLayout(null);
 		setAlignmentY(Component.BOTTOM_ALIGNMENT);
 		setAlignmentX(Component.RIGHT_ALIGNMENT);
